@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  AppViewController.h
 //  DiVoomDemo
 //
 //  Created by kevin on 2020/5/28.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface AppViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

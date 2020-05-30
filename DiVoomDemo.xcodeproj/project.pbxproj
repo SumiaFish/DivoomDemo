@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0438889424822B580027C01C /* UIViewController+SimpleAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438889324822B570027C01C /* UIViewController+SimpleAlert.m */; };
 		045D5D40247FA7B000C22452 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5D3F247FA7B000C22452 /* AppDelegate.m */; };
 		045D5D43247FA7B000C22452 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5D42247FA7B000C22452 /* SceneDelegate.m */; };
 		045D5D46247FA7B000C22452 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5D45247FA7B000C22452 /* ViewController.m */; };
@@ -16,6 +17,27 @@
 		045D5D51247FA7B700C22452 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5D50247FA7B700C22452 /* main.m */; };
 		045D5D5B247FA7B700C22452 /* DiVoomDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5D5A247FA7B700C22452 /* DiVoomDemoTests.m */; };
 		045D5D66247FA7B700C22452 /* DiVoomDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5D65247FA7B700C22452 /* DiVoomDemoUITests.m */; };
+		045D5D79247FA85F00C22452 /* AppNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5D78247FA85F00C22452 /* AppNavigationController.m */; };
+		045D5D7C247FA87D00C22452 /* AppTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5D7B247FA87D00C22452 /* AppTabbarController.m */; };
+		045D5D84247FA8E200C22452 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5D83247FA8E200C22452 /* HomeViewController.m */; };
+		045D5D87247FA8FC00C22452 /* ChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5D86247FA8FC00C22452 /* ChannelViewController.m */; };
+		045D5D8A247FA90E00C22452 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5D89247FA90E00C22452 /* DrawViewController.m */; };
+		045D5D8D247FA91700C22452 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5D8C247FA91700C22452 /* DiscoverViewController.m */; };
+		045D5D90247FA91E00C22452 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5D8F247FA91E00C22452 /* PersonalViewController.m */; };
+		045D5D95247FAC6300C22452 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5D94247FAC6300C22452 /* AppViewController.m */; };
+		045D5D98247FACD500C22452 /* WhiteboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5D97247FACD500C22452 /* WhiteboardViewController.m */; };
+		045D5D9B247FBCAA00C22452 /* color.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 045D5D9A247FBCAA00C22452 /* color.jpg */; };
+		045D5DA42480AE0600C22452 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5DA32480AE0600C22452 /* DrawView.m */; };
+		045D5DAB2480B12800C22452 /* UIView+Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5DA72480B12800C22452 /* UIView+Context.m */; };
+		045D5DAF2480B37000C22452 /* Whiteboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5DAE2480B37000C22452 /* Whiteboard.m */; };
+		045D5DB22480D16500C22452 /* Drawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5DB12480D16500C22452 /* Drawer.m */; };
+		045D5DB82480E6DC00C22452 /* ColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5DB72480E6DC00C22452 /* ColorPickerView.m */; };
+		045D5DBB2480EAA300C22452 /* PagesListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5DBA2480EAA300C22452 /* PagesListView.m */; };
+		045D5DBE2480F53300C22452 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5DBD2480F53300C22452 /* PlayerView.m */; };
+		045D5DC124813C6A00C22452 /* WhiteboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D5DC024813C6A00C22452 /* WhiteboardManager.m */; };
+		603E765A629ADA24F9B94C2F /* Pods_DiVoomDemo_DiVoomDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AD0E7E90AC4E1C325F8D42 /* Pods_DiVoomDemo_DiVoomDemoUITests.framework */; };
+		71AFC7664A021E1D33C044DA /* Pods_DiVoomDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94795A2859AB85DAD270DDE /* Pods_DiVoomDemo.framework */; };
+		F62B22AEA2DB120A040B3BEA /* Pods_DiVoomDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DA5A23BF8D1BBD1BF3AB57 /* Pods_DiVoomDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0438889224822B570027C01C /* UIViewController+SimpleAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SimpleAlert.h"; sourceTree = "<group>"; };
+		0438889324822B570027C01C /* UIViewController+SimpleAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SimpleAlert.m"; sourceTree = "<group>"; };
 		045D5D3B247FA7B000C22452 /* DiVoomDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiVoomDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045D5D3E247FA7B000C22452 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		045D5D3F247FA7B000C22452 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +78,50 @@
 		045D5D61247FA7B700C22452 /* DiVoomDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiVoomDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045D5D65247FA7B700C22452 /* DiVoomDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiVoomDemoUITests.m; sourceTree = "<group>"; };
 		045D5D67247FA7B700C22452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045D5D77247FA85F00C22452 /* AppNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppNavigationController.h; sourceTree = "<group>"; };
+		045D5D78247FA85F00C22452 /* AppNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppNavigationController.m; sourceTree = "<group>"; };
+		045D5D7A247FA87D00C22452 /* AppTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppTabbarController.h; sourceTree = "<group>"; };
+		045D5D7B247FA87D00C22452 /* AppTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppTabbarController.m; sourceTree = "<group>"; };
+		045D5D82247FA8E200C22452 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		045D5D83247FA8E200C22452 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		045D5D85247FA8FC00C22452 /* ChannelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChannelViewController.h; sourceTree = "<group>"; };
+		045D5D86247FA8FC00C22452 /* ChannelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChannelViewController.m; sourceTree = "<group>"; };
+		045D5D88247FA90E00C22452 /* DrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		045D5D89247FA90E00C22452 /* DrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		045D5D8B247FA91700C22452 /* DiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		045D5D8C247FA91700C22452 /* DiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		045D5D8E247FA91E00C22452 /* PersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		045D5D8F247FA91E00C22452 /* PersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		045D5D93247FAC6300C22452 /* AppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
+		045D5D94247FAC6300C22452 /* AppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
+		045D5D96247FACD500C22452 /* WhiteboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhiteboardViewController.h; sourceTree = "<group>"; };
+		045D5D97247FACD500C22452 /* WhiteboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiteboardViewController.m; sourceTree = "<group>"; };
+		045D5D9A247FBCAA00C22452 /* color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = color.jpg; sourceTree = "<group>"; };
+		045D5DA22480AE0600C22452 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		045D5DA32480AE0600C22452 /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		045D5DA72480B12800C22452 /* UIView+Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Context.m"; sourceTree = "<group>"; };
+		045D5DA92480B12800C22452 /* UIView+Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Context.h"; sourceTree = "<group>"; };
+		045D5DAD2480B36F00C22452 /* Whiteboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Whiteboard.h; sourceTree = "<group>"; };
+		045D5DAE2480B37000C22452 /* Whiteboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Whiteboard.m; sourceTree = "<group>"; };
+		045D5DB02480D16500C22452 /* Drawer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drawer.h; sourceTree = "<group>"; };
+		045D5DB12480D16500C22452 /* Drawer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawer.m; sourceTree = "<group>"; };
+		045D5DB62480E6DC00C22452 /* ColorPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorPickerView.h; sourceTree = "<group>"; };
+		045D5DB72480E6DC00C22452 /* ColorPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorPickerView.m; sourceTree = "<group>"; };
+		045D5DB92480EAA300C22452 /* PagesListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PagesListView.h; sourceTree = "<group>"; };
+		045D5DBA2480EAA300C22452 /* PagesListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagesListView.m; sourceTree = "<group>"; };
+		045D5DBC2480F53300C22452 /* PlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		045D5DBD2480F53300C22452 /* PlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		045D5DBF24813C6900C22452 /* WhiteboardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhiteboardManager.h; sourceTree = "<group>"; };
+		045D5DC024813C6A00C22452 /* WhiteboardManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiteboardManager.m; sourceTree = "<group>"; };
+		04AD0E7E90AC4E1C325F8D42 /* Pods_DiVoomDemo_DiVoomDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiVoomDemo_DiVoomDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DA5A23BF8D1BBD1BF3AB57 /* Pods_DiVoomDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiVoomDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C61B470DBB57E57340E75F6 /* Pods-DiVoomDemo-DiVoomDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiVoomDemo-DiVoomDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-DiVoomDemo-DiVoomDemoUITests/Pods-DiVoomDemo-DiVoomDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86EE04AEC071C80876F87C8E /* Pods-DiVoomDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiVoomDemo.release.xcconfig"; path = "Target Support Files/Pods-DiVoomDemo/Pods-DiVoomDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A108F0FFE12907C8A25748B0 /* Pods-DiVoomDemo-DiVoomDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiVoomDemo-DiVoomDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-DiVoomDemo-DiVoomDemoUITests/Pods-DiVoomDemo-DiVoomDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C548D38251AE9ED59933346D /* Pods-DiVoomDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiVoomDemo.debug.xcconfig"; path = "Target Support Files/Pods-DiVoomDemo/Pods-DiVoomDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D94795A2859AB85DAD270DDE /* Pods_DiVoomDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiVoomDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E1B2743C57A5361DB1A673 /* Pods-DiVoomDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiVoomDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-DiVoomDemoTests/Pods-DiVoomDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE072B3093F7CCFE386A724E /* Pods-DiVoomDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiVoomDemoTests.release.xcconfig"; path = "Target Support Files/Pods-DiVoomDemoTests/Pods-DiVoomDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71AFC7664A021E1D33C044DA /* Pods_DiVoomDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F62B22AEA2DB120A040B3BEA /* Pods_DiVoomDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +145,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603E765A629ADA24F9B94C2F /* Pods_DiVoomDemo_DiVoomDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0438888E24822AC10027C01C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				0438889224822B570027C01C /* UIViewController+SimpleAlert.h */,
+				0438889324822B570027C01C /* UIViewController+SimpleAlert.m */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		045D5D32247FA7AF00C22452 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +168,8 @@
 				045D5D59247FA7B700C22452 /* DiVoomDemoTests */,
 				045D5D64247FA7B700C22452 /* DiVoomDemoUITests */,
 				045D5D3C247FA7B000C22452 /* Products */,
+				3473AB77B58D615269A3C8D2 /* Pods */,
+				C17AABCE9779E35A9D96BD78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +186,8 @@
 		045D5D3D247FA7B000C22452 /* DiVoomDemo */ = {
 			isa = PBXGroup;
 			children = (
+				045D5D99247FBC9A00C22452 /* resource */,
+				045D5D73247FA82E00C22452 /* src */,
 				045D5D3E247FA7B000C22452 /* AppDelegate.h */,
 				045D5D3F247FA7B000C22452 /* AppDelegate.m */,
 				045D5D41247FA7B000C22452 /* SceneDelegate.h */,
@@ -137,6 +221,199 @@
 			path = DiVoomDemoUITests;
 			sourceTree = "<group>";
 		};
+		045D5D73247FA82E00C22452 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				045D5D91247FAC4C00C22452 /* core */,
+				045D5D74247FA83300C22452 /* sections */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		045D5D74247FA83300C22452 /* sections */ = {
+			isa = PBXGroup;
+			children = (
+				045D5D81247FA8B100C22452 /* personal */,
+				045D5D80247FA89300C22452 /* discover */,
+				045D5D7F247FA88D00C22452 /* draw */,
+				045D5D7E247FA88400C22452 /* chnnel */,
+				045D5D7D247FA88100C22452 /* home */,
+				045D5D76247FA84200C22452 /* nav */,
+				045D5D75247FA83800C22452 /* tabbar */,
+			);
+			path = sections;
+			sourceTree = "<group>";
+		};
+		045D5D75247FA83800C22452 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				045D5D7A247FA87D00C22452 /* AppTabbarController.h */,
+				045D5D7B247FA87D00C22452 /* AppTabbarController.m */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		045D5D76247FA84200C22452 /* nav */ = {
+			isa = PBXGroup;
+			children = (
+				045D5D77247FA85F00C22452 /* AppNavigationController.h */,
+				045D5D78247FA85F00C22452 /* AppNavigationController.m */,
+			);
+			path = nav;
+			sourceTree = "<group>";
+		};
+		045D5D7D247FA88100C22452 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				045D5D82247FA8E200C22452 /* HomeViewController.h */,
+				045D5D83247FA8E200C22452 /* HomeViewController.m */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		045D5D7E247FA88400C22452 /* chnnel */ = {
+			isa = PBXGroup;
+			children = (
+				045D5D85247FA8FC00C22452 /* ChannelViewController.h */,
+				045D5D86247FA8FC00C22452 /* ChannelViewController.m */,
+			);
+			path = chnnel;
+			sourceTree = "<group>";
+		};
+		045D5D7F247FA88D00C22452 /* draw */ = {
+			isa = PBXGroup;
+			children = (
+				045D5DAC2480B35F00C22452 /* present */,
+				045D5D9E2480A78E00C22452 /* model */,
+				045D5D9D2480A76B00C22452 /* view */,
+				045D5D9C2480A76200C22452 /* controller */,
+			);
+			path = draw;
+			sourceTree = "<group>";
+		};
+		045D5D80247FA89300C22452 /* discover */ = {
+			isa = PBXGroup;
+			children = (
+				045D5D8B247FA91700C22452 /* DiscoverViewController.h */,
+				045D5D8C247FA91700C22452 /* DiscoverViewController.m */,
+			);
+			path = discover;
+			sourceTree = "<group>";
+		};
+		045D5D81247FA8B100C22452 /* personal */ = {
+			isa = PBXGroup;
+			children = (
+				045D5D8E247FA91E00C22452 /* PersonalViewController.h */,
+				045D5D8F247FA91E00C22452 /* PersonalViewController.m */,
+			);
+			path = personal;
+			sourceTree = "<group>";
+		};
+		045D5D91247FAC4C00C22452 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				0438888E24822AC10027C01C /* New Group */,
+				045D5DA52480B12800C22452 /* UIView */,
+				045D5D92247FAC5200C22452 /* controller */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		045D5D92247FAC5200C22452 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				045D5D93247FAC6300C22452 /* AppViewController.h */,
+				045D5D94247FAC6300C22452 /* AppViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		045D5D99247FBC9A00C22452 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				045D5D9A247FBCAA00C22452 /* color.jpg */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		045D5D9C2480A76200C22452 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				045D5D88247FA90E00C22452 /* DrawViewController.h */,
+				045D5D89247FA90E00C22452 /* DrawViewController.m */,
+				045D5D96247FACD500C22452 /* WhiteboardViewController.h */,
+				045D5D97247FACD500C22452 /* WhiteboardViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		045D5D9D2480A76B00C22452 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				045D5DA22480AE0600C22452 /* DrawView.h */,
+				045D5DA32480AE0600C22452 /* DrawView.m */,
+				045D5DB62480E6DC00C22452 /* ColorPickerView.h */,
+				045D5DB72480E6DC00C22452 /* ColorPickerView.m */,
+				045D5DB92480EAA300C22452 /* PagesListView.h */,
+				045D5DBA2480EAA300C22452 /* PagesListView.m */,
+				045D5DBC2480F53300C22452 /* PlayerView.h */,
+				045D5DBD2480F53300C22452 /* PlayerView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		045D5D9E2480A78E00C22452 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				045D5DB02480D16500C22452 /* Drawer.h */,
+				045D5DB12480D16500C22452 /* Drawer.m */,
+				045D5DAD2480B36F00C22452 /* Whiteboard.h */,
+				045D5DAE2480B37000C22452 /* Whiteboard.m */,
+				045D5DBF24813C6900C22452 /* WhiteboardManager.h */,
+				045D5DC024813C6A00C22452 /* WhiteboardManager.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		045D5DA52480B12800C22452 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				045D5DA92480B12800C22452 /* UIView+Context.h */,
+				045D5DA72480B12800C22452 /* UIView+Context.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		045D5DAC2480B35F00C22452 /* present */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = present;
+			sourceTree = "<group>";
+		};
+		3473AB77B58D615269A3C8D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C548D38251AE9ED59933346D /* Pods-DiVoomDemo.debug.xcconfig */,
+				86EE04AEC071C80876F87C8E /* Pods-DiVoomDemo.release.xcconfig */,
+				4C61B470DBB57E57340E75F6 /* Pods-DiVoomDemo-DiVoomDemoUITests.debug.xcconfig */,
+				A108F0FFE12907C8A25748B0 /* Pods-DiVoomDemo-DiVoomDemoUITests.release.xcconfig */,
+				E6E1B2743C57A5361DB1A673 /* Pods-DiVoomDemoTests.debug.xcconfig */,
+				FE072B3093F7CCFE386A724E /* Pods-DiVoomDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C17AABCE9779E35A9D96BD78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D94795A2859AB85DAD270DDE /* Pods_DiVoomDemo.framework */,
+				04AD0E7E90AC4E1C325F8D42 /* Pods_DiVoomDemo_DiVoomDemoUITests.framework */,
+				35DA5A23BF8D1BBD1BF3AB57 /* Pods_DiVoomDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +421,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045D5D6A247FA7B700C22452 /* Build configuration list for PBXNativeTarget "DiVoomDemo" */;
 			buildPhases = (
+				5094952AAEAA2B6D22BAF9F3 /* [CP] Check Pods Manifest.lock */,
 				045D5D37247FA7B000C22452 /* Sources */,
 				045D5D38247FA7B000C22452 /* Frameworks */,
 				045D5D39247FA7B000C22452 /* Resources */,
+				3EAF6974B0167F8B1F593C6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +440,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045D5D6D247FA7B700C22452 /* Build configuration list for PBXNativeTarget "DiVoomDemoTests" */;
 			buildPhases = (
+				CE83BD0DD4D5583D3A6A7127 /* [CP] Check Pods Manifest.lock */,
 				045D5D52247FA7B700C22452 /* Sources */,
 				045D5D53247FA7B700C22452 /* Frameworks */,
 				045D5D54247FA7B700C22452 /* Resources */,
@@ -179,9 +459,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045D5D70247FA7B700C22452 /* Build configuration list for PBXNativeTarget "DiVoomDemoUITests" */;
 			buildPhases = (
+				1833950A46233990633207DC /* [CP] Check Pods Manifest.lock */,
 				045D5D5D247FA7B700C22452 /* Sources */,
 				045D5D5E247FA7B700C22452 /* Frameworks */,
 				045D5D5F247FA7B700C22452 /* Resources */,
+				3B2B3F1F6C3998FF6EB378CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -243,6 +525,7 @@
 				045D5D4E247FA7B700C22452 /* LaunchScreen.storyboard in Resources */,
 				045D5D4B247FA7B700C22452 /* Assets.xcassets in Resources */,
 				045D5D49247FA7B000C22452 /* Main.storyboard in Resources */,
+				045D5D9B247FBCAA00C22452 /* color.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,15 +545,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1833950A46233990633207DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiVoomDemo-DiVoomDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B2B3F1F6C3998FF6EB378CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiVoomDemo-DiVoomDemoUITests/Pods-DiVoomDemo-DiVoomDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiVoomDemo-DiVoomDemoUITests/Pods-DiVoomDemo-DiVoomDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiVoomDemo-DiVoomDemoUITests/Pods-DiVoomDemo-DiVoomDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EAF6974B0167F8B1F593C6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiVoomDemo/Pods-DiVoomDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiVoomDemo/Pods-DiVoomDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiVoomDemo/Pods-DiVoomDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5094952AAEAA2B6D22BAF9F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiVoomDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE83BD0DD4D5583D3A6A7127 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiVoomDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		045D5D37247FA7B000C22452 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045D5D8A247FA90E00C22452 /* DrawViewController.m in Sources */,
+				045D5DBE2480F53300C22452 /* PlayerView.m in Sources */,
+				045D5DB82480E6DC00C22452 /* ColorPickerView.m in Sources */,
+				045D5D79247FA85F00C22452 /* AppNavigationController.m in Sources */,
+				045D5DB22480D16500C22452 /* Drawer.m in Sources */,
+				045D5DAB2480B12800C22452 /* UIView+Context.m in Sources */,
 				045D5D46247FA7B000C22452 /* ViewController.m in Sources */,
+				045D5D87247FA8FC00C22452 /* ChannelViewController.m in Sources */,
 				045D5D40247FA7B000C22452 /* AppDelegate.m in Sources */,
+				045D5D8D247FA91700C22452 /* DiscoverViewController.m in Sources */,
 				045D5D51247FA7B700C22452 /* main.m in Sources */,
+				045D5DC124813C6A00C22452 /* WhiteboardManager.m in Sources */,
+				045D5DAF2480B37000C22452 /* Whiteboard.m in Sources */,
 				045D5D43247FA7B000C22452 /* SceneDelegate.m in Sources */,
+				045D5DBB2480EAA300C22452 /* PagesListView.m in Sources */,
+				0438889424822B580027C01C /* UIViewController+SimpleAlert.m in Sources */,
+				045D5D84247FA8E200C22452 /* HomeViewController.m in Sources */,
+				045D5D7C247FA87D00C22452 /* AppTabbarController.m in Sources */,
+				045D5D98247FACD500C22452 /* WhiteboardViewController.m in Sources */,
+				045D5D95247FAC6300C22452 /* AppViewController.m in Sources */,
+				045D5D90247FA91E00C22452 /* PersonalViewController.m in Sources */,
+				045D5DA42480AE0600C22452 /* DrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,10 +841,12 @@
 		};
 		045D5D6B247FA7B700C22452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C548D38251AE9ED59933346D /* Pods-DiVoomDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DiVoomDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,10 +859,12 @@
 		};
 		045D5D6C247FA7B700C22452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86EE04AEC071C80876F87C8E /* Pods-DiVoomDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DiVoomDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +877,7 @@
 		};
 		045D5D6E247FA7B700C22452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E1B2743C57A5361DB1A673 /* Pods-DiVoomDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +897,7 @@
 		};
 		045D5D6F247FA7B700C22452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE072B3093F7CCFE386A724E /* Pods-DiVoomDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +917,7 @@
 		};
 		045D5D71247FA7B700C22452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C61B470DBB57E57340E75F6 /* Pods-DiVoomDemo-DiVoomDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DiVoomDemoUITests/Info.plist;
@@ -524,6 +935,7 @@
 		};
 		045D5D72247FA7B700C22452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A108F0FFE12907C8A25748B0 /* Pods-DiVoomDemo-DiVoomDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DiVoomDemoUITests/Info.plist;
