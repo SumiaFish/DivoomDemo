@@ -231,8 +231,15 @@
         }
         
         UIGraphicsBeginImageContext(self.size);
-        [bgimg drawInRect:CGRectMake(0, 0, self.size.width, self.size.height)];
-        [currentImage drawInRect:CGRectMake(0, 0, self.size.width, self.size.height)];
+        /// TODO；这里解释不清楚，待查证
+        if (_rows == 1) {
+            [currentImage drawInRect:CGRectMake(0, 0, self.size.width, self.size.height)];
+            [bgimg drawInRect:CGRectMake(0, 0, self.size.width, self.size.height)];
+        } else {
+            [bgimg drawInRect:CGRectMake(0, 0, self.size.width, self.size.height)];
+            [currentImage drawInRect:CGRectMake(0, 0, self.size.width, self.size.height)];
+        }
+//        [bgimg drawInRect:CGRectMake(0, 0, self.size.width, self.size.height)];
         UIImage *compoundImage = UIGraphicsGetImageFromCurrentImageContext();
         UIGraphicsEndImageContext();
         
